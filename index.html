@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Knusel Soundmachine</title>
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <style>
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body{
+  background-color: #2C6E49;
+}
+div{
+display:flex;
+flex-flow: row;
+justify-content: center;
+}
+a.button4{
+ 
+/*display:flex;
+flex-flow: column;*/
+padding:2em 2em;
+margin:0.5em;
+border:0.16em solid rgba(255,255,255,0);
+border-radius:1em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto Mono', monospace;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+line-height: 15em;
+transition: all 0.2s;
+width: 15em;
+height: 15em;
+}
+a.button4:hover{
+border-color: #ffffff;
+}
+@media all and (max-width:30em){
+a.button4{
+display:block;
+margin:0.2em auto;
+ }
+} 
+
+p{
+  color: #4C956C;
+  font-family: 'Roboto Mono', monospace;
+  font-weight:300;
+  font-size: 1em;
+  text-align: center;
+}
+
+</style>
+  </head>
+  <body>
+    <script>
+      function play1() {
+        var audio = document.getElementById("track1");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play2() {
+        var audio = document.getElementById("track2");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play3() {
+        var audio = document.getElementById("track3");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play4() {
+        var audio = document.getElementById("track4");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play5() {
+        var audio = document.getElementById("track5");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play6() {
+        var audio = document.getElementById("track6");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play7() {
+        var audio = document.getElementById("track7");
+        audio.currentTime = 0;
+        audio.play();
+      }
+      function play8() {
+        var audio = document.getElementById("track8");
+        audio.currentTime = 0;
+        audio.play();
+      }
+    </script>
+    <div>
+    <a class="button4" style="background-color:#4C956C" onclick="play1()">🐎</a>    
+    <a class="button4" style="background-color:#4C956C" onclick="play2()">🐩</a>
+    </div>
+    <div>
+    <a class="button4" style="background-color:#4C956C" onclick="play3()">🐅</a>
+    <a class="button4" style="background-color:#4C956C" onclick="play4()">🦅</a>
+    </div> 
+    <div>
+    <a class="button4" style="background-color:#4C956C" onclick="play5()">🦧</a>
+    <a class="button4" style="background-color:#4C956C" onclick="play6()">🦙</a>
+    </div>
+    <div>
+    <a class="button4" style="background-color:#4C956C" onclick="play7()">✅</a>
+    <a class="button4" style="background-color:#4C956C" onclick="play8()">🤪</a>
+    </div>         
+
+
+    <audio id="track1" src="Pferd.m4a"></audio>
+    <audio id="track2" src="Hund.m4a"></audio>
+    <audio id="track3" src="Tiger.m4a"></audio>    
+    <audio id="track4" src="Vogel.m4a"></audio>
+    <audio id="track5" src="Affe.m4a"></audio>
+    <audio id="track6" src="Lama.m4a"></audio>
+    <audio id="track7" src="Jaaa.m4a"></audio>
+    <audio id="track8" src="Lachen.m4a"></audio>
+
+
+<br><p>Knusel Soundmachine · Animal Edition · Mai '23</p>
+
+<script type="text/javascript">
+var emojis = (function() {
+  // Set the size of the rendered Emojis
+  // This can be set to 16x16, 36x36, or 72x72
+twemoji.size = '72x72';
+
+  // Parse the document body and
+  // insert <img> tags in place of Unicode Emojis
+twemoji.parse(document.body);
+}(window, twemoji));
+</script>
+
+  </body>
+</html>
